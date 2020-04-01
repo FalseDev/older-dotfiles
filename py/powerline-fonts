@@ -1,0 +1,4 @@
+sudo apt install fonts-powerline
+echo Reboot required,cancellable within 10 seconds
+sleep 10
+sudo reboot
