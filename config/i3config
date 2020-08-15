@@ -180,5 +180,5 @@ bar {
         status_command i3blocks
 }
 
-exec_always 'feh --bg-scale /home/ubuntu/Pictures/wallpapers/eat_sleep_code_repeat.jpg'
+exec_always '/home/ubuntu/.fehbg' 
 exec terminator

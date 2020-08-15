@@ -6,7 +6,7 @@ let g:coc_global_extensions = [
    \    'coc-json',
    \    'coc-python',
    \    'coc-html',
-   \    'coc-pairs',
    \    'coc-prettier'
    \    ]
 
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescript.tsx

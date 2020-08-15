@@ -13,20 +13,18 @@ Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
 
 " Prettier
-" Plug 'prettier/vim-prettier', {
-"   \ 'do': 'yarn install',
-"   \ 'for': ['python','javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['python','typescriptreact','javascriptreact','javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 
 Plug 'vim-airline/vim-airline'
 
 " Theme
-Plug 'crusoexia/vim-monokai'
-Plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'crusoexia/vim-monokai'
+" Plug 'dracula/vim', { 'as': 'dracula' }
 
-Plug 'takac/vim-hardtime'
+" Plug 'takac/vim-hardtime'
 
 " Icons in filetree
 Plug 'ryanoasis/vim-devicons'
-
 call plug#end()
-

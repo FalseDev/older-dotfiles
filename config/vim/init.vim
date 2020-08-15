@@ -8,8 +8,8 @@ syntax on
 highlight Normal ctermbg=NONE
 
 " Use theme
-set termguicolors
-colorscheme dracula
+" set termguicolors
+" colorscheme dracula
 " colorscheme monokai 
 
 " Show number lines by default
@@ -25,4 +25,4 @@ set softtabstop=2
 set tabstop=2
 
 " Prettier auto format
-let g:prettier#autoformat = 1
+" let g:prettier#autoformat = 1
